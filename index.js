@@ -60,7 +60,7 @@ function rowHead (texture, text) {
   return head;
 }
 
-Qimage("/image.png").then(function (img) {
+Qimage("./image.png").then(function (img) {
 
   var textureSources = [
     { name: "HTML Image", obj: img },
